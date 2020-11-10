@@ -1,0 +1,22 @@
+
+        
+        #appilcation.yml properties details
+# spring:
+#   cloud:
+#     gateway:
+#       default-filters:
+#       - name: CustomFilter
+#       routes:
+#       - id: pgMicorService
+#         uri: http://localhost:2005/
+#         predicates:
+#         - Path=/pg/**
+#       - id: ownerMicroService
+#         uri: http://localhost:2004/
+#         predicates:
+#         - Path=/mypg/**
+#       - id: billMicroService
+#         uri: http://localhost:2001/
+#         predicates:
+#         - Path=/bill/**
+        
